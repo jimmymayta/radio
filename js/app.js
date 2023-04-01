@@ -1,6 +1,6 @@
 const play = document.querySelector("#play");
 
-const audio = new Audio("http://stream.zeno.fm/1s53a2gkuf9uv-delete");
+const audio = new Audio("http://stream.zeno.fm/1s53a2gkuf9uv");
 let audioplay = false;
 
 const playicon = () => {
