@@ -1,6 +1,6 @@
 const play = document.querySelector("#play");
 
-const audio = new Audio("http://stream.zeno.fm/1s53a2gkuf9uv");
+const audio = new Audio("http://stream.zeno.fm/1s53a2gkuf9uv-delete");
 let audioplay = false;
 
 const playicon = () => {
@@ -14,7 +14,7 @@ const playicon = () => {
 const playaudio = async () => {
   try {
     if (audioplay) {
-      await audio.pause();
+      audio.pause();
       audioplay = !audioplay;
     } else {
       await audio.play();
